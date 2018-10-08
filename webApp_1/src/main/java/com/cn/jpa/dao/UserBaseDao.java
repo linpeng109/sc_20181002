@@ -11,13 +11,17 @@ public interface UserBaseDao extends PagingAndSortingRepository<UserBase, String
 
     public long count();
 
+    public long countAllBySexAndAgeLessThanEqual(boolean sex, int age);
+
     public List<UserBase> findAll();
 
     public Page<UserBase> findAll(Pageable pageable);
 
     public List<UserBase> findBySexAndAgeGreaterThanEqual(boolean sex, int age);
 
-    public Page<UserBase> findByUsernameLike(String usernameLike, Pageable pageable);
+    public List<UserBase> deleteByAgeIsLessThanEqual(int age);
+
+    public Page<UserBase> findByUsernameLike(Pageable pageable, String usernameLike);
 
     public UserBase findByUsername(String username);
 

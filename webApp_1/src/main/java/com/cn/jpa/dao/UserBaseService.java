@@ -6,6 +6,7 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
+import javax.transaction.Transactional;
 import java.util.List;
 
 @Service
@@ -21,15 +22,29 @@ public class UserBaseService {
         return userBaseDao.findAll();
     }
 
+    public Page<UserBase> findAll(Pageable pageable) {
+        return userBaseDao.findAll(pageable);
+    }
+
     public List<UserBase> findBySexAndAgeGreaterThanEqual(boolean sex, int age) {
         return userBaseDao.findBySexAndAgeGreaterThanEqual(sex, age);
+    }
+
+    public Page<UserBase> findByUsernameLike(Pageable pageable, String usernameLike) {
+        return userBaseDao.findByUsernameLike(pageable, usernameLike);
+    }
+
+    @Transactional
+    public List<UserBase> deleteByAgeIsLessThanEqual(int age) {
+        return userBaseDao.deleteByAgeIsLessThanEqual(age);
     }
 
     public long count() {
         return userBaseDao.count();
     }
 
-    public Page<UserBase> findAll(Pageable pageable) {
-        return userBaseDao.findAll(pageable);
+    public long countAllBySexAndAgeLessThanEqual(boolean sex, int age) {
+        return userBaseDao.countAllBySexAndAgeLessThanEqual(sex, age);
     }
+
 }

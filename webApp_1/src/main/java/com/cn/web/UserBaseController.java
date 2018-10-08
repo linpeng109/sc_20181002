@@ -27,7 +27,12 @@ public class UserBaseController {
     @Autowired
     private AuthorityBaseService authorityBaseService;
 
-    @RequestMapping("/findall/{page}/{size}")
+    @RequestMapping("/findAll")
+    public List<UserBase> findAll() {
+        return userBaseService.findAll();
+    }
+
+    @RequestMapping("/findAll/{page}/{size}")
     public Page<UserBase> findAll(@PathVariable("page") int page, @PathVariable("size") int size) {
         Pageable pageable = PageRequest.of(page, size);
         Page<UserBase> pageList = userBaseService.findAll(pageable);
@@ -39,9 +44,26 @@ public class UserBaseController {
         return userBaseService.count();
     }
 
-    @RequestMapping("/findbysexandagegreaterthanequal/{sex}/{age}")
+    @RequestMapping("/countAllBySexAndAgeLessThanEqual/{sex}/{age}")
+    public long countAllBySexAndAgeLessThanEqual(@PathVariable("sex") boolean sex, @PathVariable("age") int age) {
+        return userBaseService.countAllBySexAndAgeLessThanEqual(sex, age);
+    }
+
+    @RequestMapping("/findBySexAndAgeGreaterThanEqual/{sex}/{age}")
     public List<UserBase> findBySexAndAgeGreaterThanEqual(@PathVariable("sex") boolean sex, @PathVariable("age") int age) {
         return userBaseService.findBySexAndAgeGreaterThanEqual(sex, age);
+    }
+
+    @RequestMapping("/findByUsernameLike/{page}/{size}/{usernameLike}")
+    public Page<UserBase> findByUsernameLike(@PathVariable("page") int page, @PathVariable("size") int size, @PathVariable("usernameLike") String usernameLike) {
+        Pageable pageable = PageRequest.of(page, size);
+        log.debug("username like " + usernameLike);
+        return userBaseService.findByUsernameLike(pageable, "%" + usernameLike + "%");
+    }
+
+    @RequestMapping("/deleteAllByAgeIsLessThanEqual/{age}")
+    public List<UserBase> deleteAllByAgeIsLessThanEqual(@PathVariable("age") int age) {
+        return userBaseService.deleteByAgeIsLessThanEqual(age);
     }
 
     @RequestMapping("/init/{number}")
@@ -53,7 +75,7 @@ public class UserBaseController {
             userBase.password = randomString;
             Random random = new Random();
             userBase.sex = random.nextBoolean();
-            userBase.age = random.nextInt(60);
+            userBase.age = 20 + random.nextInt(40);
             List<AuthorityBase> list = authorityBaseService.findAll();
             userBase.authorityBaseList = list;
             UserBase result = userBaseService.save(userBase);
