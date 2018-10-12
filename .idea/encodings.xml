@@ -4,8 +4,9 @@
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/configServer" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eurekaServer_1" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/eurekaServer_1/src/main/resources/bootstrap.yml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eurekaServer_2" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/webApp_1" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/webApp_2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zuulServer" charset="UTF-8" />
   </component>
 </project>

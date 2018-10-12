@@ -11,6 +11,8 @@
         <module name="eurekaServer_1" />
         <module name="eurekaServer_2" />
         <module name="webApp_1" />
+        <module name="webApp_2" />
+        <module name="zuulServer" />
       </profile>
     </annotationProcessing>
   </component>

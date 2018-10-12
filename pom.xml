@@ -11,6 +11,8 @@
         <module>eurekaServer_2</module>
         <module>configServer</module>
         <module>webApp_1</module>
+        <module>webApp_2</module>
+        <module>zuulServer</module>
     </modules>
     <packaging>pom</packaging>
 
