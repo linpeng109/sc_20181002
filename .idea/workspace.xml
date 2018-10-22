@@ -2,38 +2,73 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="832dc539-7af6-4a8f-b948-fc793cadc059" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configServer/src/main/resources/shared/Web_App-pro.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuulServer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuulServer/src/main/java/com/cn/zuul/ZuulServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuulServer/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sc_20181002.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adminServer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adminServer/src/main/java/com/cn/admin/AdminServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adminServer/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configServer/configServer.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer_2/eurekaServer_2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/securityServer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/securityServer/src/main/java/com/cn/jpa/dao/AuthorityDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/securityServer/src/main/java/com/cn/jpa/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/securityServer/src/main/java/com/cn/jpa/entity/Authority.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/securityServer/src/main/java/com/cn/jpa/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/securityServer/src/main/java/com/cn/security/SecurityServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/securityServer/src/main/java/com/cn/web/AuthorityApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/securityServer/src/main/java/com/cn/web/Hello.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/securityServer/src/main/java/com/cn/web/UserApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/securityServer/src/main/java/com/cn/web/service/AuthorityService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/securityServer/src/main/java/com/cn/web/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/securityServer/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webApp_1/webApp_1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webApp_2/webApp_2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zipkinServer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zipkinServer/src/main/java/com/cn/zipkin/ZipkinServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zipkinServer/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zipkinServer/zipkinServer.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zuulServer/src/main/java/com/cn/zuul/fallback/ZuulServerFallbackProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zuulServer/zuulServer.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configServer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/configServer/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/configServer/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configServer/src/main/resources/bootstrap.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configServer/src/main/resources/shared/Web_App_1.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/configServer/target/classes/META-INF/build-info.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configServer/target/classes/META-INF/build-info.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/configServer/target/classes/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configServer/target/classes/bootstrap.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configServer/target/classes/shared/Web_App_1.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/configServer/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/configServer/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configServer/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/eurekaServer_1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eurekaServer_1/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eurekaServer_1/src/main/java/com/cn/eureka/EurekaServer1Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/eurekaServer_1/src/main/java/com/cn/eureka/EurekaServer1Application.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eurekaServer_1/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eurekaServer_1/src/main/resources/bootstrap.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eurekaServer_2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eurekaServer_2/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eurekaServer_2/src/main/java/com/cn/eureka/EurekaServer1Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/eurekaServer_2/src/main/java/com/cn/eureka/EurekaServer2Application.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eurekaServer_2/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eurekaServer_2/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eurekaServer_2/target/classes/META-INF/build-info.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eurekaServer_2/target/classes/META-INF/build-info.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eurekaServer_2/target/classes/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eurekaServer_2/target/classes/bootstrap.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eurekaServer_2/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/eurekaServer_2/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eurekaServer_2/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/eurekaServer_2/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eurekaServer_2/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webApp_1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/webApp_1/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp_1/src/main/java/com/cn/web/AuthorityBaseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/webApp_1/src/main/java/com/cn/web/AuthorityBaseController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp_1/src/main/java/com/cn/web/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/webApp_1/src/main/java/com/cn/web/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp_1/src/main/java/com/cn/web/UserBaseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/webApp_1/src/main/java/com/cn/web/UserBaseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp_1/src/main/java/com/cn/WebApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/webApp_1/src/main/java/com/cn/WebApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webApp_1/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/webApp_1/src/main/resources/bootstrap.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp_1/target/classes/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/webApp_1/target/classes/bootstrap.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp_1/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/webApp_1/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp_1/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/webApp_1/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp_1/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp_1/target/classes/META-INF/build-info.properties" beforeDir="false" afterPath="$PROJECT_DIR$/webApp_1/target/classes/META-INF/build-info.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp_1/target/classes/bootstrap.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp_1/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp_1/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp_2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/webApp_2/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp_2/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/webApp_2/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp_2/target/classes/META-INF/build-info.properties" beforeDir="false" afterPath="$PROJECT_DIR$/webApp_2/target/classes/META-INF/build-info.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp_2/target/classes/bootstrap.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp_2/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp_2/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zuulServer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zuulServer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zuulServer/src/main/java/com/cn/zuul/ZuulServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/zuulServer/src/main/java/com/cn/zuul/ZuulServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zuulServer/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/zuulServer/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zuulServer/target/classes/META-INF/build-info.properties" beforeDir="false" afterPath="$PROJECT_DIR$/zuulServer/target/classes/META-INF/build-info.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zuulServer/target/classes/bootstrap.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zuulServer/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zuulServer/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zuulServer/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -44,6 +79,9 @@
     <ignored path="$PROJECT_DIR$/webApp_1/target/" />
     <ignored path="$PROJECT_DIR$/webApp_2/target/" />
     <ignored path="$PROJECT_DIR$/zuulServer/target/" />
+    <ignored path="$PROJECT_DIR$/zipkinServer/target/" />
+    <ignored path="$PROJECT_DIR$/securityServer/target/" />
+    <ignored path="$PROJECT_DIR$/adminServer/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +114,10 @@
         <item name="mysql_sc_20181002" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="mysql_sc_20181002: schema" type="c314c289:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="mysql_security@localhost" type="feb32156:DbDataSourceImpl" />
       </path>
     </expand>
     <select />
@@ -144,40 +186,50 @@
     <session id="710223150">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.21" value="1" />
+          <entry key="project.open.time.22" value="1" />
+          <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.25" value="1" />
+          <entry key="project.open.time.29" value="2" />
+          <entry key="project.open.time.30" value="1" />
           <entry key="project.open.time.35" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="22" />
-          <entry key="properties" value="51" />
-          <entry key="xml" value="23" />
+          <entry key="java" value="50" />
+          <entry key="kt" value="1" />
+          <entry key="properties" value="107" />
+          <entry key="xml" value="56" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="22" />
-          <entry key="Properties" value="51" />
-          <entry key="XML" value="23" />
+          <entry key="JAVA" value="50" />
+          <entry key="Kotlin" value="1" />
+          <entry key="Properties" value="107" />
+          <entry key="XML" value="56" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1382" />
-          <entry key="properties" value="1507" />
-          <entry key="xml" value="183" />
+          <entry key="java" value="4153" />
+          <entry key="properties" value="2505" />
+          <entry key="txt" value="14" />
+          <entry key="xml" value="792" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1382" />
-          <entry key="Properties" value="1507" />
-          <entry key="XML" value="183" />
+          <entry key="JAVA" value="4153" />
+          <entry key="PLAIN_TEXT" value="14" />
+          <entry key="Properties" value="2505" />
+          <entry key="XML" value="792" />
         </counts>
       </usages-collector>
     </session>
@@ -188,19 +240,119 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webApp_1/src/main/resources/bootstrap.properties">
+        <entry file="file://$PROJECT_DIR$/securityServer/src/main/java/com/cn/security/SecurityServerApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="516">
-              <caret line="36" column="33" lean-forward="true" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
+            <state relative-caret-position="400">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/securityServer/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="466">
+              <caret line="24" column="57" selection-start-line="24" selection-start-column="57" selection-end-line="24" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/securityServer/src/main/java/com/cn/jpa/entity/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="15" column="42" lean-forward="true" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/securityServer/src/main/java/com/cn/jpa/entity/Authority.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/webApp_2/src/main/resources/bootstrap.properties">
+        <entry file="file://$PROJECT_DIR$/securityServer/src/main/resources/bootstrap.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="38" column="66" selection-start-line="38" selection-start-column="66" selection-end-line="38" selection-end-column="66" />
+            <state relative-caret-position="225">
+              <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/securityServer/src/main/java/com/cn/jpa/dao/AuthorityDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/securityServer/src/main/java/com/cn/web/UserApi.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1150">
+              <caret line="46" column="25" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#329#330#0" expanded="true" />
+                <element signature="e#373#374#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/securityServer/src/main/java/com/cn/web/service/AuthorityService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#235#236#0" expanded="true" />
+                <element signature="e#280#281#0" expanded="true" />
+                <element signature="e#221#222#0" expanded="true" />
+                <element signature="e#272#273#0" expanded="true" />
+                <element signature="e#319#320#0" expanded="true" />
+                <element signature="e#365#366#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/securityServer/src/main/java/com/cn/web/service/UserService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="11" column="48" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#221#222#0" expanded="true" />
+                <element signature="e#276#277#0" expanded="true" />
+                <element signature="e#205#206#0" expanded="true" />
+                <element signature="e#245#246#0" expanded="true" />
+                <element signature="e#280#281#0" expanded="true" />
+                <element signature="e#321#322#0" expanded="true" />
+                <element signature="e#358#359#0" expanded="true" />
+                <element signature="e#394#395#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -210,6 +362,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin File" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -221,29 +374,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/eurekaServer_1/src/main/java/com/cn/eureka/EurekaServer1Application.java" />
-        <option value="$PROJECT_DIR$/eurekaService_2/pom.xml" />
-        <option value="$PROJECT_DIR$/eurekaService_2/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/eurekaServer_2/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/eurekaServer_1/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/eurekaServer_1/src/main/resources/bootstrap.yml" />
-        <option value="$PROJECT_DIR$/eurekaServer_2/src/main/resources/bootstrap.yml" />
-        <option value="$PROJECT_DIR$/configServer/src/main/java/com/cn/config/ConfigServerApplication.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/7ee37442-6fd2-4cb6-9eb7-ce34b9d1c0ea/console.sql" />
-        <option value="$PROJECT_DIR$/webApp_1/src/main/java/com/cn/WebApp.java" />
-        <option value="$PROJECT_DIR$/configServer/src/main/resources/shared/Web_App.yml" />
-        <option value="$PROJECT_DIR$/configServer/src/main/resources/bootstrap.yml" />
-        <option value="$PROJECT_DIR$/webApp_1/src/main/resources/bootstrap.yml" />
-        <option value="$PROJECT_DIR$/webApp_1/src/main/java/com/cn/jpa/entity/Authority.java" />
-        <option value="$PROJECT_DIR$/webApp_1/src/main/java/com/cn/jpa/dao/AuthorityBaseDao.java" />
-        <option value="$PROJECT_DIR$/webApp_1/src/main/java/com/cn/jpa/entity/AuthorityBase.java" />
-        <option value="$PROJECT_DIR$/webApp_1/src/main/java/com/cn/jpa/dao/AuthorityBaseService.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/webApp_1/src/main/java/com/cn/jpa/entity/UserBase.java" />
-        <option value="$PROJECT_DIR$/webApp_1/src/main/java/com/cn/jpa/dao/UserBaseDao.java" />
         <option value="$PROJECT_DIR$/webApp_1/src/main/java/com/cn/jpa/dao/UserBaseService.java" />
         <option value="$PROJECT_DIR$/configServer/pom.xml" />
-        <option value="$PROJECT_DIR$/webApp_1/pom.xml" />
         <option value="$PROJECT_DIR$/webApp_1/src/main/java/com/cn/Swagger2Config.java" />
         <option value="$PROJECT_DIR$/webApp_1/src/main/java/com/cn/swagger2/Swagger2Config.java" />
         <option value="$PROJECT_DIR$/webApp_1/src/main/java/com/cn/web/UserBaseController.java" />
@@ -254,16 +386,45 @@
         <option value="$PROJECT_DIR$/configServer/src/main/resources/shared/Web_App.properties" />
         <option value="$PROJECT_DIR$/configServer/src/main/resources/shared/Web_App-pro.properties" />
         <option value="$PROJECT_DIR$/configServer/src/main/resources/shared/Web_App-dev.properties" />
-        <option value="$PROJECT_DIR$/eurekaServer_2/pom.xml" />
+        <option value="$PROJECT_DIR$/zuulServer/src/main/java/com/cn/ZuulServer.java" />
         <option value="$PROJECT_DIR$/eurekaServer_1/pom.xml" />
+        <option value="$PROJECT_DIR$/eurekaServer_2/pom.xml" />
+        <option value="$PROJECT_DIR$/zuulServer/src/main/java/com/cn/zuul/ZuulServerApplication.java" />
+        <option value="$PROJECT_DIR$/zuulServer/src/main/java/com/cn/zuul/IZuulServerFallbackProvider.java" />
+        <option value="$PROJECT_DIR$/zuulServer/src/main/java/com/cn/zuul/ZuulServerFallbackProvider.java" />
+        <option value="$PROJECT_DIR$/zipkinServer/src/main/resources/bootstrap.properties" />
+        <option value="$PROJECT_DIR$/zipkinServer/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/zipkinServer/src/main/java/com/cn/ZipkinServerApplication.java" />
+        <option value="$PROJECT_DIR$/zuulServer/pom.xml" />
+        <option value="$PROJECT_DIR$/zuulServer/src/main/resources/bootstrap.properties" />
+        <option value="$PROJECT_DIR$/webApp_2/pom.xml" />
+        <option value="$PROJECT_DIR$/adminServer/pom.xml" />
+        <option value="$PROJECT_DIR$/adminServer/src/main/java/com/cn/admin/AdminServerApplication.java" />
+        <option value="$PROJECT_DIR$/eurekaServer_1/src/main/java/com/cn/eureka/EurekaServer1Application.java" />
+        <option value="$PROJECT_DIR$/eurekaServer_2/src/main/java/com/cn/eureka/EurekaServer1Application.java" />
+        <option value="$PROJECT_DIR$/eurekaServer_2/src/main/java/com/cn/eureka/EurekaServer2Application.java" />
+        <option value="$PROJECT_DIR$/webApp_2/src/main/resources/bootstrap.properties" />
+        <option value="$PROJECT_DIR$/webApp_1/src/main/resources/bootstrap.properties" />
+        <option value="$PROJECT_DIR$/configServer/src/main/resources/bootstrap.properties" />
         <option value="$PROJECT_DIR$/eurekaServer_1/src/main/resources/bootstrap.properties" />
         <option value="$PROJECT_DIR$/eurekaServer_2/src/main/resources/bootstrap.properties" />
-        <option value="$PROJECT_DIR$/zuulServer/src/main/java/com/cn/ZuulServer.java" />
-        <option value="$PROJECT_DIR$/configServer/src/main/resources/bootstrap.properties" />
-        <option value="$PROJECT_DIR$/zuulServer/src/main/resources/bootstrap.properties" />
-        <option value="$PROJECT_DIR$/zuulServer/pom.xml" />
-        <option value="$PROJECT_DIR$/webApp_1/src/main/resources/bootstrap.properties" />
-        <option value="$PROJECT_DIR$/webApp_2/src/main/resources/bootstrap.properties" />
+        <option value="$PROJECT_DIR$/adminServer/src/main/resources/bootstrap.properties" />
+        <option value="$PROJECT_DIR$/webApp_1/src/main/java/com/cn/WebApp.java" />
+        <option value="$PROJECT_DIR$/webApp_1/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/zipkinServer/pom.xml" />
+        <option value="$PROJECT_DIR$/securityServer/src/main/java/com/cn/web/Hello.java" />
+        <option value="$PROJECT_DIR$/securityServer/src/main/java/com/cn/jpa/entity/Authority.java" />
+        <option value="$PROJECT_DIR$/securityServer/src/main/java/com/cn/jpa/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/securityServer/src/main/java/com/cn/jpa/dao/AuthorityDao.java" />
+        <option value="$PROJECT_DIR$/securityServer/src/main/java/com/cn/web/service/UserService.java" />
+        <option value="$PROJECT_DIR$/securityServer/src/main/java/com/cn/web/AuthorityApi.java" />
+        <option value="$PROJECT_DIR$/securityServer/src/main/java/com/cn/web/service/AuthorityService.java" />
+        <option value="$PROJECT_DIR$/securityServer/src/main/java/com/cn/web/UserApi.java" />
+        <option value="$PROJECT_DIR$/securityServer/src/main/java/com/cn/security/SecurityServerApplication.java" />
+        <option value="$PROJECT_DIR$/securityServer/pom.xml" />
+        <option value="$PROJECT_DIR$/securityServer/src/main/java/com/cn/jpa/entity/User.java" />
+        <option value="$PROJECT_DIR$/securityServer/src/main/resources/bootstrap.properties" />
       </list>
     </option>
   </component>
@@ -292,46 +453,33 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="eurekaServer_2" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="securityServer" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="zuulServer" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="zuulServer" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="securityServer" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="zuulServer" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-          <item name="clean" type="36feed69:MavenProjectsStructure$PluginNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="zuulServer" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-          <item name="spring-boot" type="36feed69:MavenProjectsStructure$PluginNode" />
         </path>
       </expand>
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1260" />
-    <option name="height" value="944" />
+    <option name="height" value="788" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -342,6 +490,72 @@
             <path>
               <item name="sc_20181002" type="b2602c69:ProjectViewProjectNode" />
               <item name="sc_20181002" type="462c0819:PsiDirectoryNode" />
+              <item name="securityServer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sc_20181002" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sc_20181002" type="462c0819:PsiDirectoryNode" />
+              <item name="securityServer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sc_20181002" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sc_20181002" type="462c0819:PsiDirectoryNode" />
+              <item name="securityServer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sc_20181002" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sc_20181002" type="462c0819:PsiDirectoryNode" />
+              <item name="securityServer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sc_20181002" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sc_20181002" type="462c0819:PsiDirectoryNode" />
+              <item name="securityServer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sc_20181002" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sc_20181002" type="462c0819:PsiDirectoryNode" />
+              <item name="securityServer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="jpa" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sc_20181002" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sc_20181002" type="462c0819:PsiDirectoryNode" />
+              <item name="securityServer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="jpa" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sc_20181002" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sc_20181002" type="462c0819:PsiDirectoryNode" />
+              <item name="securityServer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sc_20181002" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sc_20181002" type="462c0819:PsiDirectoryNode" />
               <item name="webApp_1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -363,30 +577,12 @@
               <item name="webApp_1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sc_20181002" type="b2602c69:ProjectViewProjectNode" />
               <item name="sc_20181002" type="462c0819:PsiDirectoryNode" />
-              <item name="webApp_2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sc_20181002" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sc_20181002" type="462c0819:PsiDirectoryNode" />
-              <item name="webApp_2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sc_20181002" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sc_20181002" type="462c0819:PsiDirectoryNode" />
-              <item name="webApp_2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sc_20181002" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sc_20181002" type="462c0819:PsiDirectoryNode" />
-              <item name="webApp_2" type="462c0819:PsiDirectoryNode" />
+              <item name="webApp_1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -395,17 +591,17 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539224822160" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540195831546" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8 (2)" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/zuulServer/src/main/java/com/cn" />
+    <property name="last_opened_file_path" value="D:/360安全浏览器下载/zipkin" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Problems" />
@@ -415,15 +611,16 @@
     <property name="show.run.dashboard.notification" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Workspace\sc_20181002\configServer\src\main\resources\shared\Web_App\1" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Workspace\sc_20181002\zipkinServer\src\main\resources" />
+      <recent name="D:\Workspace\sc_20181002\configServer\src\main\resources\shared" />
+      <recent name="C:\Users\linpe\workset\workspace\sc_20181002\eurekaService_2\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.cn.eureka" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Workspace\sc_20181002\configServer\src\main\resources\shared" />
-      <recent name="C:\Users\linpe\workset\workspace\sc_20181002\eurekaService_2\src\main\resources" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Workspace\sc_20181002\configServer\src\main\resources\shared\Web_App\1" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -439,6 +636,13 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.EurekaServer1Application">
+    <configuration name="AdminServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="adminServer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cn.admin.AdminServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="configServer" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.cn.config.ConfigServerApplication" />
@@ -453,6 +657,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EurekaServer2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eurekaServer_2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cn.eureka.EurekaServer2Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SecurityServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="securityServer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cn.security.SecurityServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WebApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="webApp_1" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.cn.WebApp" />
@@ -460,9 +678,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ZipkinServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="zipkinServer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cn.zipkin.ZipkinServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ZuulServer" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="zuulServer" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.cn.ZuulServer" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZuulServerApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="zuulServer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cn.zuul.ZuulServerApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -480,6 +712,11 @@
       <item itemvalue="Spring Boot.WebApp" />
       <item itemvalue="Spring Boot.ZuulServer" />
       <item itemvalue="Spring Boot.ZuulServerApplication" />
+      <item itemvalue="Spring Boot.ZuulServerApplication (1)" />
+      <item itemvalue="Spring Boot.ZipkinServerApplication" />
+      <item itemvalue="Spring Boot.AdminServerApplication" />
+      <item itemvalue="Spring Boot.EurekaServer2Application" />
+      <item itemvalue="Spring Boot.SecurityServerApplication" />
     </list>
   </component>
   <component name="SpringGeneralSettings">
@@ -508,11 +745,18 @@
       <workItem from="1539047394597" duration="36564000" />
       <workItem from="1539177317153" duration="1810000" />
       <workItem from="1539224727529" duration="685000" />
+      <workItem from="1539304541331" duration="1299000" />
+      <workItem from="1539305922936" duration="14261000" />
+      <workItem from="1539333110731" duration="13432000" />
+      <workItem from="1539573957790" duration="17247000" />
+      <workItem from="1539923993985" duration="1832000" />
+      <workItem from="1540019369634" duration="599000" />
+      <workItem from="1540175848883" duration="8475000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127276000" />
+    <option name="totallyTimeSpent" value="184421000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -524,11 +768,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Web" order="0" sideWeight="0.50503016" side_tool="true" weight="0.28236246" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.4951613" visible="true" weight="0.2624811" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.4951613" visible="true" weight="0.19818456" />
       <window_info id="Structure" order="2" sideWeight="0.5048387" side_tool="true" weight="0.24054463" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Designer" order="4" />
@@ -539,7 +783,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="1" weight="0.32903227" />
       <window_info anchor="bottom" id="Message" order="2" />
       <window_info anchor="bottom" id="Find" order="3" weight="0.32903227" />
-      <window_info anchor="bottom" x="22" y="307" width="1236" height="370" id="Run" order="4" sideWeight="0.49919093" weight="0.42741936" />
+      <window_info anchor="bottom" x="22" y="307" width="1236" height="370" id="Run" order="4" sideWeight="0.49919093" weight="0.4483871" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
@@ -550,7 +794,7 @@
       <window_info anchor="bottom" id="Terminal" order="12" weight="0.42903227" />
       <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.5008091" side_tool="true" weight="0.32903227" />
       <window_info anchor="bottom" id="Messages" order="14" />
-      <window_info anchor="right" id="Bean Validation" order="0" />
+      <window_info anchor="right" id="Bean Validation" order="0" weight="0.32980332" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
@@ -558,8 +802,8 @@
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Database" order="8" weight="0.36893204" />
-      <window_info anchor="right" id="Maven Projects" order="9" visible="true" weight="0.17397882" />
+      <window_info anchor="right" id="Database" order="8" weight="0.36838123" />
+      <window_info anchor="right" id="Maven Projects" order="9" weight="0.28895614" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -569,66 +813,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sc_20181002.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-parent/2.0.5.RELEASE/spring-boot-starter-parent-2.0.5.RELEASE.pom" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-context/2.0.1.RELEASE/spring-cloud-context-2.0.1.RELEASE-sources.jar!/org/springframework/cloud/bootstrap/config/PropertySourceBootstrapProperties.java" />
-    <entry file="uml://MAVEN/com.cn:sc_20181002:0.0.1-SNAPSHOT">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>MAVEN</ID>
-          <OriginalElement>com.cn:sc_20181002:0.0.1-SNAPSHOT</OriginalElement>
-          <nodes>
-            <node x="" y="">com.cn:sc_20181002:0.0.1-SNAPSHOT</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="53.0" y="16.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>All</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eurekaServer_1/mvnw">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="116" column="4" selection-start-line="116" selection-start-column="4" selection-end-line="116" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/7ee37442-6fd2-4cb6-9eb7-ce34b9d1c0ea/console.sql" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25-sources.jar!/org/slf4j/Logger.java" />
-    <entry file="file://$PROJECT_DIR$/webApp_1/src/main/resources/bootstrap.yml" />
-    <entry file="file://$PROJECT_DIR$/configServer/src/main/resources/bootstrap.yml" />
-    <entry file="file://$PROJECT_DIR$/configServer/src/main/resources/shared/Web_App_1_dev.yml" />
-    <entry file="file://$PROJECT_DIR$/configServer/target/classes/shared/Web_App_1.properties" />
-    <entry file="file://$PROJECT_DIR$/configServer/target/classes/shared/Web_App_1_dev.properties" />
-    <entry file="file://$PROJECT_DIR$/eurekaServer_1/src/main/resources/bootstrap.yml" />
-    <entry file="file://$PROJECT_DIR$/eurekaServer_2/src/main/resources/bootstrap.yml" />
-    <entry file="file://$PROJECT_DIR$/webApp_1/src/main/java/com/cn/jpa/dao/AuthorityBaseDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webApp_1/src/main/java/com/cn/jpa/dao/AuthorityBaseService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webApp_1/src/main/java/com/cn/jpa/entity/UserBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webApp_1/src/main/java/com/cn/jpa/entity/AuthorityBase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="292">
@@ -661,9 +845,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -672,11 +853,6 @@
         <state relative-caret-position="167">
           <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webApp_2/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-450" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/configServer/src/main/resources/shared/Web_App_2.properties" />
@@ -692,20 +868,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="17" selection-start-column="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eurekaServer_1/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="24" column="37" lean-forward="true" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eurekaServer_2/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -737,48 +899,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eurekaServer_2/src/main/java/com/cn/eureka/EurekaServer1Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eurekaServer_1/src/main/java/com/cn/eureka/EurekaServer1Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eurekaServer_1/src/main/resources/bootstrap.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eurekaServer_2/src/main/resources/bootstrap.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webApp_1/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="875">
-          <caret line="43" column="26" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webApp_1/src/main/java/com/cn/WebApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/configServer/src/main/java/com/cn/config/ConfigServerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -786,55 +906,298 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/eurekaServer_1/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="52" column="18" lean-forward="true" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="18" />
+        <state relative-caret-position="625">
+          <caret line="34" selection-end-line="35" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/configServer/src/main/resources/bootstrap.properties">
+    <entry file="file://$PROJECT_DIR$/eurekaServer_2/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" selection-start-line="5" selection-start-column="7" selection-end-line="11" />
+        <state relative-caret-position="192">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuulServer/src/main/java/com/cn/zuul/IZuulServerFallbackProvider.java" />
+    <entry file="file://$PROJECT_DIR$/zipkinServer/src/main/resources/bootstrap.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuulServer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="800">
+          <caret line="32" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webApp_2/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="48" column="21" lean-forward="true" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adminServer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="11" column="40" lean-forward="true" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zipkinServer/src/main/java/com/cn/zipkin/ZipkinServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuulServer/src/main/java/com/cn/zuul/fallback/ZuulServerFallbackProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/zuulServer/src/main/java/com/cn/zuul/ZuulServerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        <state relative-caret-position="225">
+          <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adminServer/src/main/java/com/cn/admin/AdminServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuulServer/src/main/resources/bootstrap.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="20" column="46" lean-forward="true" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eurekaServer_1/src/main/java/com/cn/eureka/EurekaServer1Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="13" column="65" lean-forward="true" selection-start-line="12" selection-start-column="44" selection-end-line="13" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eurekaServer_2/src/main/java/com/cn/eureka/EurekaServer2Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webApp_2/src/main/resources/bootstrap.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="36" column="38" lean-forward="true" selection-start-line="35" selection-start-column="34" selection-end-line="36" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configServer/src/main/resources/bootstrap.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="70" lean-forward="true" selection-start-line="7" selection-start-column="70" selection-end-line="7" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eurekaServer_2/src/main/resources/bootstrap.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eurekaServer_1/src/main/resources/bootstrap.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adminServer/src/main/resources/bootstrap.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webApp_1/src/main/java/com/cn/WebApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="48" column="12" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zipkinServer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webApp_1/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-183">
+          <caret line="55" column="66" selection-start-line="55" selection-start-column="66" selection-end-line="55" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/securityServer/src/main/java/com/cn/jpa/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zuulServer/src/main/resources/bootstrap.properties">
+    <entry file="file://$PROJECT_DIR$/securityServer/src/main/java/com/cn/web/Hello.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
+        <state relative-caret-position="200">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+          <folding>
+            <element signature="e#182#183#0" expanded="true" />
+            <element signature="e#209#210#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zuulServer/pom.xml">
+    <entry file="file://$PROJECT_DIR$/securityServer/src/main/java/com/cn/web/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+        <state relative-caret-position="275">
+          <caret line="11" column="48" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#221#222#0" expanded="true" />
+            <element signature="e#276#277#0" expanded="true" />
+            <element signature="e#205#206#0" expanded="true" />
+            <element signature="e#245#246#0" expanded="true" />
+            <element signature="e#280#281#0" expanded="true" />
+            <element signature="e#321#322#0" expanded="true" />
+            <element signature="e#358#359#0" expanded="true" />
+            <element signature="e#394#395#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/securityServer/src/main/java/com/cn/web/AuthorityApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#425#426#0" expanded="true" />
+            <element signature="e#470#471#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/securityServer/src/main/java/com/cn/web/service/AuthorityService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#235#236#0" expanded="true" />
+            <element signature="e#280#281#0" expanded="true" />
+            <element signature="e#221#222#0" expanded="true" />
+            <element signature="e#272#273#0" expanded="true" />
+            <element signature="e#319#320#0" expanded="true" />
+            <element signature="e#365#366#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/securityServer/src/main/java/com/cn/web/UserApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1150">
+          <caret line="46" column="25" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#329#330#0" expanded="true" />
+            <element signature="e#373#374#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/securityServer/src/main/java/com/cn/security/SecurityServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/securityServer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="466">
+          <caret line="24" column="57" selection-start-line="24" selection-start-column="57" selection-end-line="24" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/securityServer/src/main/java/com/cn/jpa/dao/AuthorityDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/securityServer/src/main/java/com/cn/jpa/entity/Authority.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/securityServer/src/main/java/com/cn/jpa/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="42" lean-forward="true" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webApp_1/src/main/resources/bootstrap.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="516">
-          <caret line="36" column="33" lean-forward="true" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
+        <state relative-caret-position="450">
+          <caret line="18" column="29" lean-forward="true" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webApp_2/src/main/resources/bootstrap.properties">
+    <entry file="file://$PROJECT_DIR$/securityServer/src/main/resources/bootstrap.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="38" column="66" selection-start-line="38" selection-start-column="66" selection-end-line="38" selection-end-column="66" />
+        <state relative-caret-position="225">
+          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -904,6 +1267,17 @@
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
           <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>

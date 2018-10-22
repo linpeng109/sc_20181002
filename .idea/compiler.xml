@@ -7,11 +7,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="adminServer" />
         <module name="configServer" />
         <module name="eurekaServer_1" />
         <module name="eurekaServer_2" />
+        <module name="securityServer" />
         <module name="webApp_1" />
         <module name="webApp_2" />
+        <module name="zipkinServer" />
         <module name="zuulServer" />
       </profile>
     </annotationProcessing>

@@ -1,0 +1,10 @@
+com\cn\jpa\entity\User.class
+com\cn\web\service\UserService.class
+com\cn\jpa\dao\UserDao.class
+com\cn\web\AuthorityApi.class
+com\cn\security\SecurityServerApplication.class
+com\cn\jpa\dao\AuthorityDao.class
+com\cn\web\UserApi.class
+com\cn\jpa\entity\Authority.class
+com\cn\web\Hello.class
+com\cn\web\service\AuthorityService.class

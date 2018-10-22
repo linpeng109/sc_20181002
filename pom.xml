@@ -10,9 +10,12 @@
         <module>eurekaServer_1</module>
         <module>eurekaServer_2</module>
         <module>configServer</module>
+        <module>zipkinServer</module>
+        <module>zuulServer</module>
         <module>webApp_1</module>
         <module>webApp_2</module>
-        <module>zuulServer</module>
+        <module>securityServer</module>
+        <module>adminServer</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -30,6 +33,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
+        <spring-boot-admin.version>2.0.3</spring-boot-admin.version>
         <spring-cloud.version>Finchley.SR1</spring-cloud.version>
     </properties>
 
@@ -42,8 +46,10 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+
         </dependencies>
     </dependencyManagement>
+
     <build>
         <plugins>
             <plugin>
