@@ -20,7 +20,7 @@ public class User implements UserDetails {
     @Column(name = "userId", length = 32)
     public String userId;
 
-    @Column(name = "username", unique = true, nullable = false)
+    @Column(name = "username", unique = true, nullable = false,length = 32)
     public String username;
 
     @Column(name = "password", length = 32)

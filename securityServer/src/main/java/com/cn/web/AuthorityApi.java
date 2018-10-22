@@ -18,7 +18,7 @@ public class AuthorityApi {
         return authorityDao.findAll();
     }
 
-    @RequestMapping("/initauthority")
+    @RequestMapping("/init")
     public String initAuthority(int num) {
         Authority admin = new Authority();
         admin.authority = "ROLE_ADMIN";

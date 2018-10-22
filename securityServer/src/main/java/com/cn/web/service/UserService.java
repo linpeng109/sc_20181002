@@ -2,9 +2,12 @@ package com.cn.web.service;
 
 import com.cn.jpa.dao.UserDao;
 import com.cn.jpa.entity.User;
+import org.springframework.context.annotation.Bean;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+@Service
 public class UserService {
     private UserDao userDao;
 
