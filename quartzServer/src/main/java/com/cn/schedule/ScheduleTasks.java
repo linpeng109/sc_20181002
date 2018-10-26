@@ -22,11 +22,11 @@ public class ScheduleTasks {
 
     @Scheduled(fixedRate = 5 * 1000)
     public void reportCurrentByFixeRate() {
-        log.debug("Current Time (peer 5 seconds):" + currentTime());
+        log.debug("Current Time (per 5 seconds):" + currentTime());
     }
 
     @Scheduled(cron = "0 */1 *  * * * ")
     public void reportCurrentByCron() {
-        log.debug("Current Time(peer 1 minutes):" + currentTime());
+        log.debug("Current Time(per 1 minutes):" + currentTime());
     }
 }
