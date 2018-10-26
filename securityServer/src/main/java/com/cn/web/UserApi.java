@@ -2,8 +2,8 @@ package com.cn.web;
 
 import com.cn.jpa.entity.Authority;
 import com.cn.jpa.entity.User;
-import com.cn.web.service.AuthorityService;
-import com.cn.web.service.UserService;
+import com.cn.jpa.service.AuthorityService;
+import com.cn.jpa.service.UserService;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;

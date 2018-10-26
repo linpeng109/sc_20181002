@@ -1,6 +1,6 @@
 package com.cn.web;
 
-import com.cn.jpa.dao.AuthorityBaseService;
+import com.cn.jpa.service.AuthorityBaseService;
 import com.cn.jpa.entity.AuthorityBase;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;

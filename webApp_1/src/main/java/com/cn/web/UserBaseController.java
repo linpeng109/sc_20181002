@@ -1,7 +1,7 @@
 package com.cn.web;
 
-import com.cn.jpa.dao.AuthorityBaseService;
-import com.cn.jpa.dao.UserBaseService;
+import com.cn.jpa.service.AuthorityBaseService;
+import com.cn.jpa.service.UserBaseService;
 import com.cn.jpa.entity.AuthorityBase;
 import com.cn.jpa.entity.UserBase;
 import io.swagger.annotations.ApiOperation;

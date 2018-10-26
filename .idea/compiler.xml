@@ -11,6 +11,7 @@
         <module name="configServer" />
         <module name="eurekaServer_1" />
         <module name="eurekaServer_2" />
+        <module name="quartzServer" />
         <module name="securityServer" />
         <module name="webApp_1" />
         <module name="webApp_2" />
