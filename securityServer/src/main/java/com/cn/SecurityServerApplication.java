@@ -7,6 +7,7 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 @SpringBootApplication
 @EnableEurekaClient
+@EnableSe
 @Log4j2
 public class SecurityServerApplication {
     public static void main(String[] args) {
