@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="832dc539-7af6-4a8f-b948-fc793cadc059" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eurekaServer_2/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/eurekaServer_2/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/quartzServer/src/main/java/com/cn/schedule/ScheduleTasks.java" beforeDir="false" afterPath="$PROJECT_DIR$/quartzServer/src/main/java/com/cn/schedule/ScheduleTasks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quartzServer/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/quartzServer/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -153,7 +150,7 @@
           <entry key="kt" value="1" />
           <entry key="properties" value="128" />
           <entry key="sql" value="1" />
-          <entry key="xml" value="64" />
+          <entry key="xml" value="65" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -162,13 +159,13 @@
           <entry key="Kotlin" value="1" />
           <entry key="Properties" value="128" />
           <entry key="Scratch" value="1" />
-          <entry key="XML" value="64" />
+          <entry key="XML" value="65" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="2" />
-          <entry key="java" value="5283" />
+          <entry key="java" value="5676" />
           <entry key="properties" value="2666" />
           <entry key="txt" value="14" />
           <entry key="xml" value="816" />
@@ -176,7 +173,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5283" />
+          <entry key="JAVA" value="5676" />
           <entry key="PLAIN_TEXT" value="16" />
           <entry key="Properties" value="2666" />
           <entry key="XML" value="816" />
@@ -236,11 +233,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/quartzServer/src/main/java/com/cn/schedule/ScheduleTasks.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+            <state relative-caret-position="337">
+              <caret line="36" column="69" selection-start-line="36" selection-start-column="69" selection-end-line="36" selection-end-column="69" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/quartzServer/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="850">
+              <caret line="34" column="20" lean-forward="true" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -420,7 +426,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540597861553" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540627920184" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8 (2)" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/zuulServer/src/main/java/com/cn" />
@@ -649,12 +655,12 @@
       <workItem from="1540175848883" duration="13611000" />
       <workItem from="1540350572085" duration="4685000" />
       <workItem from="1540432080246" duration="22197000" />
-      <workItem from="1540597399176" duration="461000" />
+      <workItem from="1540597399176" duration="5794000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="216900000" />
+    <option name="totallyTimeSpent" value="222233000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -670,7 +676,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Web" order="0" sideWeight="0.50503016" side_tool="true" weight="0.28236246" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.4951613" visible="true" weight="0.28582996" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.4951613" visible="true" weight="0.10607287" />
       <window_info id="Structure" order="2" sideWeight="0.5048387" side_tool="true" weight="0.24054463" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Designer" order="4" />
@@ -954,13 +960,6 @@
     <entry file="file://$PROJECT_DIR$/eurekaServer_2/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/quartzServer/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="41" lean-forward="true" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/quartzServer/src/main/java/com/cn/QuartzServerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
@@ -1063,10 +1062,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/quartzServer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="34" column="20" lean-forward="true" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/quartzServer/src/main/java/com/cn/schedule/ScheduleTasks.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+        <state relative-caret-position="337">
+          <caret line="36" column="69" selection-start-line="36" selection-start-column="69" selection-end-line="36" selection-end-column="69" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
