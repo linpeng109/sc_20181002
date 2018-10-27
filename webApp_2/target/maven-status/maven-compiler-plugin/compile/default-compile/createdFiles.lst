@@ -1,0 +1,11 @@
+com\cn\jpa\dao\UserBaseService.class
+com\cn\WebApp_2.class
+com\cn\jpa\entity\AuthorityBase.class
+com\cn\web\UserBaseController.class
+com\cn\jpa\dao\AuthorityBaseDao.class
+com\cn\jpa\entity\UserBase.class
+com\cn\jpa\dao\UserBaseDao.class
+com\cn\jpa\dao\AuthorityBaseService.class
+com\cn\swagger2\Swagger2Config.class
+com\cn\web\AuthorityBaseController.class
+com\cn\web\HelloController.class
