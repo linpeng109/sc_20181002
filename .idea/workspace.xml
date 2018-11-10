@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="832dc539-7af6-4a8f-b948-fc793cadc059" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/quartzServer/src/main/java/com/cn/schedule/ScheduleTasks.java" beforeDir="false" afterPath="$PROJECT_DIR$/quartzServer/src/main/java/com/cn/schedule/ScheduleTasks.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -129,7 +130,7 @@
     <session id="710223150">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.21" value="2" />
@@ -140,8 +141,9 @@
           <entry key="project.open.time.29" value="2" />
           <entry key="project.open.time.30" value="1" />
           <entry key="project.open.time.35" value="1" />
+          <entry key="project.open.time.46" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="13" />
+          <entry key="project.opened" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -165,7 +167,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="2" />
-          <entry key="java" value="5676" />
+          <entry key="java" value="5708" />
           <entry key="properties" value="2666" />
           <entry key="txt" value="14" />
           <entry key="xml" value="816" />
@@ -173,7 +175,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5676" />
+          <entry key="JAVA" value="5708" />
           <entry key="PLAIN_TEXT" value="16" />
           <entry key="Properties" value="2666" />
           <entry key="XML" value="816" />
@@ -233,8 +235,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/quartzServer/src/main/java/com/cn/schedule/ScheduleTasks.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="337">
-              <caret line="36" column="69" selection-start-line="36" selection-start-column="69" selection-end-line="36" selection-end-column="69" />
+            <state relative-caret-position="25">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -246,7 +248,7 @@
         <entry file="file://$PROJECT_DIR$/quartzServer/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="850">
-              <caret line="34" column="20" lean-forward="true" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
+              <caret line="34" column="20" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -362,7 +364,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -419,14 +421,14 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540627920184" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540727766344" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8 (2)" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/zuulServer/src/main/java/com/cn" />
@@ -655,12 +657,13 @@
       <workItem from="1540175848883" duration="13611000" />
       <workItem from="1540350572085" duration="4685000" />
       <workItem from="1540432080246" duration="22197000" />
-      <workItem from="1540597399176" duration="5794000" />
+      <workItem from="1540597399176" duration="9365000" />
+      <workItem from="1541817462239" duration="137000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="222233000" />
+    <option name="totallyTimeSpent" value="225941000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -673,10 +676,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Web" order="0" sideWeight="0.50503016" side_tool="true" weight="0.28236246" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.4951613" visible="true" weight="0.10607287" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.4951613" visible="true" weight="0.18137652" />
       <window_info id="Structure" order="2" sideWeight="0.5048387" side_tool="true" weight="0.24054463" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Designer" order="4" />
@@ -992,9 +994,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1009,9 +1008,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
           <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1019,9 +1015,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1029,9 +1022,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="6" column="52" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
-          <folding>
-            <element signature="e#272#273#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1039,9 +1029,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1049,9 +1036,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1065,14 +1049,14 @@
     <entry file="file://$PROJECT_DIR$/quartzServer/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="850">
-          <caret line="34" column="20" lean-forward="true" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
+          <caret line="34" column="20" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/quartzServer/src/main/java/com/cn/schedule/ScheduleTasks.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="36" column="69" selection-start-line="36" selection-start-column="69" selection-end-line="36" selection-end-column="69" />
+        <state relative-caret-position="25">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

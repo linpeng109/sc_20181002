@@ -1,6 +1,7 @@
 package com.cn.schedule;
 
 import lombok.extern.log4j.Log4j2;
+import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.scheduling.annotation.EnableScheduling;
 import org.springframework.scheduling.annotation.Scheduled;
